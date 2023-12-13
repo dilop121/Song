@@ -1,10 +1,8 @@
 {
-  "name": "𝐀𝐋𝐈𝚵𝐍™ 𝐗 𝐌𝐔𝐒𝐈𝐂",
-  "description": "Bot To Play Songs In TELEGRAM Group Voice Chats. POWERED By PYTGCALLS.",
-  "keywords": ["Music", "Voicechat", "Telegram"],
-  "logo": "https://telegra.ph/file/4640830ff2afad6e14419.jpg",
-  "repository": "https://github.com/Legend-Mukund/Song",
-  "stack": "container",
+  "name": "Pyrogram",
+  "description": "Personal use and learn Pyrogram bot.",
+  "keywords": ["telegram", "pyrogram"],
+  "repository": "https://github.com/Itz-Barath/PyrogramBot",
   "env": {
     "SESSION_NAME": {
       "description": "Pyrogram Session String Get From https://my.telegram.org/auth",
@@ -15,7 +13,7 @@
       "required": true
     },
     "BOT_USERNAME": {
-      "description": "Your Bot Username Without @ ,Get From @BotFather",
+      "description": "Your Bot Username Without @, Get From @BotFather",
       "required": true,
       "value": "ALIEN_MUSIC_ROBOT"
     },
@@ -34,5 +32,18 @@
       "required": true,
       "value": "2006619406"
     }
-  }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "stack": "container"
 }
