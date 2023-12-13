@@ -88,19 +88,19 @@ START_LUL = [
         InlineKeyboardButton("ʀᴇᴘᴏ", callback_data="repo"),
     ],
     [ 
-        InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/ALIEN_X_SUPPORT"),
-        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/ALIEN_X_SUPPORT"),
+        InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/alonegroup121"),
+        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/alonegroup121"),
     ],
     [ 
-        InlineKeyboardButton("ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ", url="https://t.me/ABOUT_MUKUND/15"),
+        InlineKeyboardButton("ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ", url="https://t.me/dil_sagar_121"),
     ],    
 ]
 
 BUTTON = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/ALIEN_X_SUPPORT"),
-            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url="https://t.me/ALIEN_X_UPDATE")
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/alonegroup121"),
+            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url="https://t.me/alonegroup121")
         ]
     ]
 )
@@ -143,12 +143,12 @@ A_BUTTONS = [
 ]
 REPO_BUTTONS = [
     [
-        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", url="https://github.com/Legend-Mukund/Song"),
+        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", url="https://t.me/alonegroup121"),
     ],
     [ 
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/ALIEN_X_SUPPORT"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/ALIEN_X_UPDATE"),
-        InlineKeyboardButton(text="Dᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/LEGEND_MUKUND"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/alonegroup121"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/alonegroup121"),
+        InlineKeyboardButton(text="Dᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/dil_sagar_121"),
     ],
     [
         InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="mukund"),
@@ -164,31 +164,31 @@ REPO_MSG = """
 
 [»] ɪ ᴄᴀɴ ᴘʟᴀʏ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏs ᴛᴏᴏ sᴏ ʏᴏᴜ ᴄᴀɴ sᴇᴇ ᴍᴏᴠɪᴇs ᴛᴏᴏ.
 
-[»] ʜᴇʀᴇ ɪs ᴛʜᴇ ʀᴇᴘᴏ ғᴏʀ ᴛʜᴇ ᴍᴜᴋᴜɴᴅ ᴍᴜsɪᴄ.
+[»] ʜᴇʀᴇ ɪs ᴛʜᴇ ʀᴇᴘᴏ ғᴏʀ ᴛʜᴇ DiL ᴍᴜsɪᴄ.
 
 """
 
 HELP_TEXT = """
 ʜᴏɪ 
 
-[»] ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ᴍᴇɴᴜ ғᴏʀ ᴛʜᴇ ᴍᴜᴋᴜɴᴅ ᴍᴜsɪᴄ.
+[»] ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ᴍᴇɴᴜ ғᴏʀ ᴛʜᴇ DiL ᴍᴜsɪᴄ.
 
 [»] ʀᴇᴀᴅ ɪᴛ ᴄᴀʀᴇ ғᴜʟʟʏ ɪᴛ ɪs ᴅɪᴠɪᴅᴇᴅ ɪɴᴛᴏ ᴛʜʀᴇᴇ sᴇᴄᴛɪᴏɴs .
 
-[»] ᴀɴᴅ ғᴏʀ ᴀɴʏ ᴋɪɴᴅ ᴏғ ʜᴇʟᴘ ᴊᴏɪɴ @ALIEN_X_SUPPORT !!!
+[»] ᴀɴᴅ ғᴏʀ ᴀɴʏ ᴋɪɴᴅ ᴏғ ʜᴇʟᴘ ᴊᴏɪɴ @alonegroup121 !!!
 
 """
 
 OWNER_HELP = """
 ʜᴏɪ 
 
-[»] ʜᴇʀᴇ ɪs ᴛʜᴇ ᴏᴡɴᴇʀ ʜᴇʟᴘ ᴍᴇɴᴜ ғᴏʀ ᴛʜᴇ ᴍᴜᴋᴜɴᴅ ᴍᴜsɪᴄ.
+[»] ʜᴇʀᴇ ɪs ᴛʜᴇ ᴏᴡɴᴇʀ ʜᴇʟᴘ ᴍᴇɴᴜ ғᴏʀ ᴛʜᴇ DiL ᴍᴜsɪᴄ.
 
 [»] /restart : ᴛᴏ ʀᴇsᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ 
 
 [»] sᴏᴏɴ ɪ ᴡɪʟʟ ᴀᴅᴅ ᴍᴏʀᴇ.
 
-[»] ᴀɴᴅ ғᴏʀ ᴀɴʏ ᴋɪɴᴅ ᴏғ ʜᴇʟᴘ ᴊᴏɪɴ @ALIEN_X_SUPPORT !!!
+[»] ᴀɴᴅ ғᴏʀ ᴀɴʏ ᴋɪɴᴅ ᴏғ ʜᴇʟᴘ ᴊᴏɪɴ @alonegroup121 !!!
 
 """
 
@@ -428,11 +428,11 @@ async def callbacks(_, cq: CallbackQuery):
 
 GROUP_BUTTONS = [ 
     [ 
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/ALIEN_X_SUPPORT"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/ALIEN_X_UPDATE"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/alonegroup121"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/alonegroup121"),
     ],
     [ 
-        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", url="https://github.com/Legend-Mukund/Song"),
+        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", url="https://t.me/alonegroup121"),
         InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="ok")
     ]
 ]            
@@ -606,7 +606,7 @@ async def skip(_, message):
             await message.reply_text(out)
             
 ALIVE_TEXT = """
-[»] ʏᴏ ʏᴏ ᴍᴜᴋᴜɴᴅ ᴍᴜsɪᴄ ʜᴇʀᴇ.
+[»] ʏᴏ ʏᴏ Dil ᴍᴜsɪᴄ ʜᴇʀᴇ.
 
 [»] ᴜsᴇʀʙᴏᴛ : `ᴀʟɪᴠᴇ`
 
