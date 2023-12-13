@@ -70,11 +70,11 @@ START_BUTTONS = InlineKeyboardMarkup(
             InlineKeyboardButton("ʀᴇᴘᴏ", callback_data="repo")
         ],
         [
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/ALIEN_X_SUPPORT"),
-            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/ALIEN_X_SUPPORT")
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/alonegroup121"),
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/alonegroup121")
         ],
         [
-            InlineKeyboardButton("ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ", url="https://t.me/ABOUT_MUKUND/15")
+            InlineKeyboardButton("ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ", url="https://t.me/dil_sagar_121")
         ]
     ]
 )
