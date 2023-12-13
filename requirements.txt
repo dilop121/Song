@@ -3,5 +3,6 @@ tgcrypto
 py-tgcalls==0.8.6
 youtube_search
 pytube
-yt_dlp
 youtube_dl
+youtube-search-python
+git+https://github.com/yt-dlp/yt-dlp.git
