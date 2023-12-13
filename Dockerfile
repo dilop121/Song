@@ -1,11 +1,17 @@
-FROM debian:latest
+FROM python:3.8
 
-RUN apt update && apt upgrade -y
-RUN apt install git curl python3-pip ffmpeg -y
-RUN pip install -U pip
-RUN curl -sL https://deb.nodesource.com/setup_17.x | bash -
-RUN apt-get install -y nodejs
-COPY . /app
+# Install system dependencies
+RUN apt-get update && apt-get install -y git curl ffmpeg nodejs
+
+# Upgrade pip
+RUN python3 -m pip install --upgrade pip
+
+# Set up the working directory and copy files
 WORKDIR /app
-RUN pip3 install -U -r requirements.txt
-CMD python3 Muku.py
+COPY . /app
+
+# Install Python dependencies
+RUN pip install -r requirements.txt
+
+# Set the default command
+CMD ["python", "Muku.py"]
