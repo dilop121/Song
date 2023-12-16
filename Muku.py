@@ -437,19 +437,19 @@ GROUP_BUTTONS = [
     ]
 ]            
             
-@bot.on_message(filters.command("help"))
+@bot.on_message(filters.command("helps"))
 async def help_private(_, message):
     msg = HELP_TEXT.format(message.from_user.mention)
     await message.reply_text(text = msg,
                              reply_markup = MUKUND_MUSIC)            
  
-@bot.on_message(filters.command("start") & filters.private)
+@bot.on_message(filters.command("starts") & filters.private)
 async def start_private(_, message):
     msg = START_TEXT.format(message.from_user.mention)
     await message.reply_text(text = msg,
                              reply_markup = START_BUTTONS)
 
-@bot.on_message(filters.command("start") & filters.group)
+@bot.on_message(filters.command("starts") & filters.group)
 async def start(_, message):
     msg = START_TEXT.format(message.from_user.mention)
     await message.reply_text(text = msg,
@@ -733,7 +733,7 @@ PHOTO = [
 ]
 
 
-@bot.on_message(filters.command("broadcast"))
+@bot.on_message(filters.command("broadcast1"))
 async def broadcast(_, message: Message):
     sent=0
     failed=0
